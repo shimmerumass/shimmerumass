@@ -42,21 +42,6 @@ The UMass Shimmer Project is an innovative research initiative that leverages **
 - **Software**: Python SDK, MATLAB integration, Web APIs
 - **Data Processing**: Real-time streaming and batch analysis
 
-## ⚡ Quick Start
-
-Ready to get started? Here's the fastest way to begin:
-
-```bash
-# 1. Install the Python SDK
-pip install shimmer-python-api
-
-# 2. Connect to your Shimmer sensor
-python -c "
-from shimmer_api import ShimmerDevice
-device = ShimmerDevice()
-device.scan_for_devices()
-"
-```
 
 **👉 [Full Setup Guide](https://shimmerumass.github.io/shimmerumass/getting-started/)**
 
