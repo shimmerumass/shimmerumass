@@ -25,7 +25,7 @@ The UMass Shimmer Project is an innovative research initiative that leverages **
 
 ## 📖 Complete Documentation
 
-> **[📚 Visit our Documentation Site](https://shimmerumass.github.io/shimmerumass/)** for comprehensive guides, API references, and tutorials.
+> **[📚 Visit our Documentation Site](https://shimmerumass.github.io/shimmerumass/)** for comprehensive guides, API references.
 
 ### 🔗 Quick Navigation
 
@@ -80,3 +80,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Documentation](https://shimmerumass.github.io/shimmerumass/) • [Issues](https://github.com/shimmerumass/shimmerumass/issues) • [Contributing](https://shimmerumass.github.io/shimmerumass/)
 
 </div>
+
