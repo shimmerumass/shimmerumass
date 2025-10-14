@@ -38,7 +38,7 @@ The UMass Shimmer Project is an innovative research initiative that leverages **
 ## 🛠️ Technology Stack
 
 - **Hardware**: Shimmer3 wireless sensor platforms
-- **Connectivity**: Bluetooth Low Energy, USB, Network protocols
+- **Connectivity**: Classic Bluetooth, USB, Network protocols
 - **Software**: Python SDK, MATLAB integration, Web APIs
 - **Data Processing**: Real-time streaming and batch analysis
 
