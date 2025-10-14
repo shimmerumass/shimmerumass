@@ -14,6 +14,8 @@
 
 The UMass Shimmer Project is an innovative research initiative that leverages **Shimmer wireless sensor technology** to create cutting-edge solutions for real-time data collection and analysis. Our platform enables researchers, developers, and students to build sophisticated sensor networks for various applications.
 
+**🌐 Live Documentation:** https://shimmerumass.github.io/shimmerumass-webpage/
+
 ### 🎯 Key Capabilities
 
 - **🏥 Health & Wellness Monitoring** - Real-time physiological data collection
