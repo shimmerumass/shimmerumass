@@ -1,7 +1,7 @@
 site_name: UMass Shimmer Project
 site_description: Documentation for the UMass Shimmer sensor project and docking platform
-repo_url: https://github.com/shimmerumass/shimmerumass-webpage
-repo_name: shimmerumass/shimmerumass-webpage
+repo_url: https://github.com/shimmerumass/shimmerumass
+repo_name: shimmerumass/shimmerumass
 edit_uri: edit/main/docs/
 
 theme:
