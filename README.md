@@ -25,12 +25,8 @@ It integrates three coordinated subsystems — **Android Docking**, **Serverless
 
 ## 🏗️ System Architecture
 
-The architecture connects a local-first Android docking app with a fully serverless AWS backend.
-A separate web portal enables researchers to visualize, filter, and download decoded sensor data.
+The architecture connects a local-first Android docking app with a fully serverless AWS backend. A separate web portal enables researchers to visualize, filter, and download decoded sensor data.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/shimmerumass/shimmerumass/main/docs/assets/app_architecture.png" alt="Shimmer Architecture" width="80%">
-</p>
 
 ---
 
