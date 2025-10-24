@@ -28,8 +28,6 @@ It integrates three coordinated subsystems — **Android Docking**, **Serverless
 The architecture connects a local-first Android docking app with a fully serverless AWS backend. A separate web portal enables researchers to visualize, filter, and download decoded sensor data.
 
 
----
-
 ### **1️⃣ Android Docking Subsystem**
 
 📦 **Repository:** [shimmerumass/shimmer-docking-android](https://github.com/shimmerumass/shimmer-docking-android)
@@ -51,7 +49,6 @@ The **ShimmerDock Android app** automates nightly extraction and synchronization
 * **Firebase Crashlytics** integrated for operational logging and error monitoring.
 * **Local-first architecture** ensures no data loss in offline environments.
 
----
 
 ### **2️⃣ Cloud Processing and API Layer**
 
