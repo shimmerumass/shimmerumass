@@ -143,16 +143,6 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 ---
 
-<div align="center">
-
-**Built by the UMass Research Community**
-
-[Documentation](https://shimmerumass.github.io/shimmerumass/) • [Android App](https://github.com/shimmerumass/shimmer-docking-android) • [Cloud API](https://github.com/shimmerumass/shimmer-cloud-api) • [Web Interface](https://github.com/shimmerumass/shimmer-web-ui)
-
-</div>
-
----
-
 
 <div align="center">
   
@@ -162,16 +152,10 @@ A lightweight Angular-based interface provides tools for data visualization and 
     <tr>
       <td align="center" valign="top" width="50%">
         <b>Principal Investigators</b><br><br>
-        <a href="https://www.cics.umass.edu/about/directory/ivan-lee">
-          <img src="https://avatars.githubusercontent.com/u/ivanlee?size=80" width="60" style="border-radius:50%" alt="Ivan Lee"/>
-        </a><br>
-        <a href="https://www.cics.umass.edu/about/directory/ivan-lee">Prof. Ivan Lee</a><br>
+        <a href="https://www.cics.umass.edu/about/directory/ivan-lee"><b>Prof. Ivan Lee</b></a><br>
         <span style="font-size: 0.9em; color: #888;">CICS, UMass Amherst</span>
         <br><br>
-        <a href="https://www.umass.edu/engineering/about/directory/jeremy-gummeson">
-          <img src="https://avatars.githubusercontent.com/u/jeremygummeson?size=80" width="60" style="border-radius:50%" alt="Jeremy Gummeson"/>
-        </a><br>
-        <a href="https://www.umass.edu/engineering/about/directory/jeremy-gummeson">Prof. Jeremy Gummeson</a><br>
+        <a href="https://www.umass.edu/engineering/about/directory/jeremy-gummeson"><b>Prof. Jeremy Gummeson</b></a><br>
         <span style="font-size: 0.9em; color: #888;">Engineering, UMass Amherst</span>
       </td>
       <td align="center" valign="top" width="50%">
@@ -185,5 +169,15 @@ A lightweight Angular-based interface provides tools for data visualization and 
       </td>
     </tr>
   </table>
+
+</div>
+
+---
+
+<div align="center">
+
+**Built by the UMass Research Community**
+
+[Documentation](https://shimmerumass.github.io/shimmerumass/) • [Android App](https://github.com/shimmerumass/shimmer-docking-android) • [Cloud API](https://github.com/shimmerumass/shimmer-cloud-api) • [Web Interface](https://github.com/shimmerumass/shimmer-web-ui)
 
 </div>
