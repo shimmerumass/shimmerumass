@@ -153,3 +153,37 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 ---
 
+
+<div align="center">
+  
+  <h2>👩‍💻 Developers & Professor Guide</h2>
+  
+  <table align="center" width="80%">
+    <tr>
+      <td align="center" valign="top" width="50%">
+        <b>Principal Investigators</b><br><br>
+        <a href="https://www.cics.umass.edu/about/directory/ivan-lee">
+          <img src="https://avatars.githubusercontent.com/u/ivanlee?size=80" width="60" style="border-radius:50%" alt="Ivan Lee"/>
+        </a><br>
+        <a href="https://www.cics.umass.edu/about/directory/ivan-lee">Prof. Ivan Lee</a><br>
+        <span style="font-size: 0.9em; color: #888;">CICS, UMass Amherst</span>
+        <br><br>
+        <a href="https://www.umass.edu/engineering/about/directory/jeremy-gummeson">
+          <img src="https://avatars.githubusercontent.com/u/jeremygummeson?size=80" width="60" style="border-radius:50%" alt="Jeremy Gummeson"/>
+        </a><br>
+        <a href="https://www.umass.edu/engineering/about/directory/jeremy-gummeson">Prof. Jeremy Gummeson</a><br>
+        <span style="font-size: 0.9em; color: #888;">Engineering, UMass Amherst</span>
+      </td>
+      <td align="center" valign="top" width="50%">
+        <b>Developers</b><br><br>
+        <span title="Zhaolong" style="font-size:1.1em;">🧑‍💻 Zhaolong</span><br><br>
+        <a href="https://github.com/swetha4444">
+          <img src="https://avatars.githubusercontent.com/u/104366858?v=4" width="60" style="border-radius:50%" alt="Swetha Saseendran"/>
+        </a><br>
+  <a href="https://github.com/swetha4444">Swetha Saseendran</a><br>
+  <a href="mailto:ssaseendran@umass.edu" style="font-size:0.95em; color:#555;">ssaseendran@umass.edu</a>
+      </td>
+    </tr>
+  </table>
+
+</div>
