@@ -166,7 +166,7 @@ A lightweight Angular-based interface provides tools for data visualization and 
         <b>Developers</b><br><br>
         <span title="Zhaolong" style="font-size:1.1em;">🧑‍💻 Zhaolong</span><br><br>
 
-  <a href="https://github.com/swetha4444">Swetha Saseendran</a><br>
+  <a href="https://github.com/swetha4444"><b>Swetha Saseendran</b></a><br>
   <a href="mailto:ssaseendran@umass.edu" style="font-size:0.95em; color:#555;">ssaseendran@umass.edu</a><br>
   <span style="font-size: 0.9em; color: #888;">CICS, UMass Amherst</span>
       </td>
