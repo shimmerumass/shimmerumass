@@ -14,7 +14,11 @@
 
 ## 🧭 Overview
 
+
 The **UMass Shimmer Project** is a modular platform built by the University of Massachusetts research community to automate **data extraction, decoding, and synchronization** of Shimmer sensor data.
+
+In the current landscape, many organizations rely on proprietary or third-party platforms to sync and manage sensor data. This project serves as an open-source example for building a fully self-reliant, end-to-end system—empowering researchers and developers to create, control, and extend their own data acquisition and processing pipelines without vendor lock-in.
+
 It integrates three coordinated subsystems — **Android Docking**, **Serverless Cloud Backend**, and a **Web Visualization Interface** — designed for scalability, automation, and fault tolerance.
 
 ---
