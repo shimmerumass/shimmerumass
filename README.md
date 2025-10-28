@@ -150,7 +150,7 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 <div align="center">
   
-  <h2>👩‍💻 Developers & Professor Guide</h2>
+  <h2>Developers & Professor Guide</h2>
   
   <table align="center" width="80%">
     <tr>
