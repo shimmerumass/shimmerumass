@@ -1,116 +1,62 @@
 # Getting Started
 
-This guide will help you set up and start using the UMass Shimmer sensor platform.
+## Hardware Components Overview
 
-## Prerequisites
+The platform is designed to work with any data-collecting sensor device.  
+In our deployment, we use **Shimmer sensors** as an example, but the system can be adapted to other wearable or IoT sensors that collect physiological or environmental data.
 
-Before you begin, ensure you have:
+---
 
-- A Shimmer3 sensor device
-- USB cable for initial setup
-- Computer with Bluetooth capability
-- Compatible operating system (Windows, macOS, or Linux)
+## Software Components Overview
 
-## Installation
+Our platform consists of several core software components, each with specific roles and technical responsibilities.
 
-### 1. Hardware Setup
+---
 
-1. **Unpack your Shimmer sensor**
-   - Handle the device carefully
-   - Ensure the battery is charged or connect to power
+### Cloud Backend
+- Provides a central API for uploading, downloading, and managing sensor data and metadata.  
+- Receives files from the mobile app, processes and calibrates the data, and stores both raw and processed results.  
+- Manages secure access to file storage and metadata for other components.  
+- Groups and organizes files by device, user, and time for easy retrieval and analysis.  
+- Serves as the main integration point for the web dashboard and mobile app.
 
-2. **Connect via USB**
-   - Use the provided USB cable
-   - Connect the sensor to your computer
-   - The device should be recognized automatically
+---
 
-### 2. Software Installation
+### Mobile App
+- Collects data from wearable sensors and manages local storage of files.  
+- Detects when sensors are ready to transfer data and initiates file transfer.  
+- Ensures reliable transfer of files to the backend, with error handling and retries.  
+- Tracks which files have been uploaded and manages uploads when a network is available.  
+- Tags each file with device and time information for traceability.
 
-#### Option A: Using Python (Recommended)
+---
 
-```bash
-# Install required packages
-pip install shimmer-python-api
-pip install bluetooth-utils
-```
+### Web Dashboard
+- Provides a user interface for browsing, searching, and visualizing sensor data.  
+- Allows users to download files, manage devices, and map devices to users or patients.  
+- Supports secure login and access control for different user roles.  
+- Enables bulk operations and administrative management of the system.
 
-#### Option B: Using the Shimmer Application
+---
 
-1. Download the official Shimmer application from the [Shimmer website](https://www.shimmersensing.com)
-2. Follow the installation wizard
-3. Launch the application and follow setup prompts
+### Database
+- Stores metadata about files, devices, users, and summary statistics for fast lookup and queries.  
+- Supports grouping, searching, and validation of data sync status.  
+- Keeps only summary and reference data, with large files stored separately.
 
-### 3. First Connection
+---
 
-1. **Enable Bluetooth** on your computer
-2. **Power on** your Shimmer sensor
-3. **Pair the device** through your system's Bluetooth settings
-4. **Test the connection** using the Shimmer application or API
+### File Storage
+- Stores all raw and processed sensor data files.  
+- Supports scalable upload and download of large datasets.  
+- Provides secure, time-limited access to files for authorized users and components.  
+- References to files are stored in the database for quick lookup.
 
-## Basic Usage
+---
 
-### Connecting to a Sensor
+## Workflow Summary
 
-```python
-from shimmer_api import ShimmerDevice
-
-# Create connection
-sensor = ShimmerDevice()
-sensor.connect("00:06:66:XX:XX:XX")  # Replace with your device MAC
-
-# Start streaming
-sensor.start_streaming()
-
-# Read data
-data = sensor.read_data()
-print(data)
-
-# Stop streaming
-sensor.stop_streaming()
-sensor.disconnect()
-```
-
-### Configuration
-
-Basic sensor configuration options:
-
-- **Sampling Rate**: Set data collection frequency
-- **Sensor Selection**: Choose which sensors to activate
-- **Data Format**: Configure output data structure
-- **Power Management**: Optimize battery usage
-
-## Next Steps
-
-- Review the [Architecture](architecture.md) to understand system components
-- Learn about [Protocol](protocol.md) specifications for advanced integration
-- Explore example projects and use cases
-
-## Troubleshooting
-
-### Common Issues
-
-**Bluetooth Connection Problems**
-```
-- Ensure Bluetooth is enabled
-- Check device pairing status  
-- Verify correct MAC address
-- Try restarting the Bluetooth service
-```
-
-**Data Not Streaming**
-```
-- Confirm sensor is powered on
-- Check connection status
-- Verify sensor configuration
-- Review firewall/security settings
-```
-
-**Battery Issues**
-```
-- Charge device for at least 2 hours
-- Check charging cable connection
-- Monitor battery indicator
-- Consider battery replacement if old
-```
-
-For additional support, check our [GitHub Issues](https://github.com/shimmerumass/shimmerumass-webpage/issues) or contact the development team.
+1. The **mobile app** collects data from Shimmer sensors, transfers files, and uploads them to the **cloud backend**.  
+2. The **backend** decodes, calibrates, and stores data in **Amazon S3** and **DynamoDB**.  
+3. The **web dashboard** provides researchers with tools to browse, visualize, and download data, as well as manage devices and users.  
+4. **DynamoDB** and **S3** work together to provide fast metadata queries and scalable file storage.
