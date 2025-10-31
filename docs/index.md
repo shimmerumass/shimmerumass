@@ -9,7 +9,7 @@ Shimmer is a wireless sensor designed for real-time human motion analysis, envir
 
 
 
-![App Architecture](../app_architecture.png)
+![App Architecture](app_architecture.png)
 
 ## Hardware Components Overview
 
