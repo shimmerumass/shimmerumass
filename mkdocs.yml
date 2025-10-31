@@ -29,6 +29,7 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - tags
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.6.0/dist/mermaid.min.js
@@ -59,5 +60,9 @@ nav:
   - Getting Started: getting-started.md
   - Architecture: architecture.md
   - Protocol: protocol.md
+  - Experiments: experiments.md
+  - Shimmer Server UI: shimmer-server-ui.md
+  - Mobile Application: myapplication.md
+  - Cloud Sync: cloud-sync.md
 
 copyright: Copyright &copy; 2025 UMass Shimmer Project
