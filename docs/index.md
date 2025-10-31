@@ -90,9 +90,11 @@ Ready to get started? Check out our [Getting Started](getting-started.md) guide 
 - **[Getting Started](getting-started.md)**: Setup and installation guide
 - **[Architecture](architecture.md)**: System design and components  
 - **[Protocol](protocol.md)**: Communication protocols and APIs
+- **[Experiments](experiments.md)**: Experimental validation and results
 - **[Shimmer Server UI](shimmer-server-ui.md)**: Web dashboard for data visualization and management
 - **[Mobile App](myapplication.md)**: Android app for docking and data sync
 - **[Cloud Sync](cloud-sync.md)**: Backend API for data processing and storage
+- **[Hardware & Firmware](hardware-firmware.md)**: Shimmer sensor hardware and firmware details
 
 ## Community & Support
 

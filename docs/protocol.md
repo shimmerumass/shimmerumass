@@ -1,5 +1,7 @@
 # Communication Protocol
 
+<!-- TODO: Zhaolong -->
+
 This document describes the communication protocols used by the UMass Shimmer sensor platform for device control, data transmission, and system integration.
 
 ## Android Docking & File Transfer Protocol
