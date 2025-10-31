@@ -164,7 +164,7 @@ A lightweight Angular-based interface provides tools for data visualization and 
       </td>
       <td align="center" valign="top" width="50%">
         <b>Developers</b><br><br>
-        <span title="Zhaolong" style="font-size:1.1em;">🧑‍💻 Zhaolong</span><br><br>
+        <span title="Zhaolong" style="font-size:1.1em;">Zhaolong</span><br><br>
         <!-- TODO: Zhaolong -->
 
   <a href="https://github.com/swetha4444"><b>Swetha Saseendran</b></a><br>
