@@ -1,62 +1,66 @@
 # Getting Started
 
-## Hardware Components Overview
+This guide provides setup instructions for the three main components of the UMass Shimmer project: the Android docking app, the cloud API backend, and the web interface dashboard.
 
-The platform is designed to work with any data-collecting sensor device.  
-In our deployment, we use **Shimmer sensors** as an example, but the system can be adapted to other wearable or IoT sensors that collect physiological or environmental data.
+## Android Docking App
 
----
+The Android app automates docking, data transfer, and cloud sync for Shimmer sensors.
 
-## Software Components Overview
+**Repository:** [shimmerumass/shimmer-docking-android](https://github.com/shimmerumass/shimmer-docking-android)
 
-Our platform consists of several core software components, each with specific roles and technical responsibilities.
+**What it is:** A Java-based Android application that handles Bluetooth communication with Shimmer devices, transfers sensor data, and syncs to cloud storage.
 
----
+**How to run:**
+1. Clone the repository: `git clone https://github.com/shimmerumass/shimmer-docking-android`
+2. Open the project in Android Studio
+3. Build the `app` module
+4. Ensure runtime permissions are granted (Bluetooth, location, notifications for Android 13+)
+5. Run on an Android device (minimum SDK 31)
 
-### Cloud Backend
-- Provides a central API for uploading, downloading, and managing sensor data and metadata.  
-- Receives files from the mobile app, processes and calibrates the data, and stores both raw and processed results.  
-- Manages secure access to file storage and metadata for other components.  
-- Groups and organizes files by device, user, and time for easy retrieval and analysis.  
-- Serves as the main integration point for the web dashboard and mobile app.
+See the repository README for detailed protocol documentation and UI guides.
 
----
+## Cloud API Backend
 
-### Mobile App
-- Collects data from wearable sensors and manages local storage of files.  
-- Detects when sensors are ready to transfer data and initiates file transfer.  
-- Ensures reliable transfer of files to the backend, with error handling and retries.  
-- Tracks which files have been uploaded and manages uploads when a network is available.  
-- Tags each file with device and time information for traceability.
+The backend provides serverless data processing and storage APIs.
 
----
+**Repository:** [shimmerumass/shimmer-cloud-api](https://github.com/shimmerumass/shimmer-cloud-api)
 
-### Web Dashboard
-- Provides a user interface for browsing, searching, and visualizing sensor data.  
-- Allows users to download files, manage devices, and map devices to users or patients.  
-- Supports secure login and access control for different user roles.  
-- Enables bulk operations and administrative management of the system.
+**What it is:** A Python FastAPI application deployed on AWS Lambda that decodes Shimmer sensor data, applies calibration, and manages storage in S3 and DynamoDB.
 
----
+**How to run locally:**
+1. Install dependencies: `pip install fastapi uvicorn boto3 python-dotenv mangum pydantic`
+2. Configure environment variables in `.env`:
+   ```
+   S3_BUCKET=your-bucket-name
+   DDB_TABLE=your-device-patient-db
+   DDB_FILE_TABLE=your-file-db
+   AWS_REGION=your-region
+   ```
+3. Run: `uvicorn main:app --reload`
 
-### Database
-- Stores metadata about files, devices, users, and summary statistics for fast lookup and queries.  
-- Supports grouping, searching, and validation of data sync status.  
-- Keeps only summary and reference data, with large files stored separately.
+**For AWS deployment:** Package dependencies and deploy to Lambda with API Gateway.
 
----
+See the repository README for API endpoints and data processing details.
 
-### File Storage
-- Stores all raw and processed sensor data files.  
-- Supports scalable upload and download of large datasets.  
-- Provides secure, time-limited access to files for authorized users and components.  
-- References to files are stored in the database for quick lookup.
+## Web Interface Dashboard
 
----
+The web app for data visualization and management.
 
-## Workflow Summary
+**Repository:** [shimmerumass/shimmer-web-ui](https://github.com/shimmerumass/shimmer-web-ui)
 
-1. The **mobile app** collects data from Shimmer sensors, transfers files, and uploads them to the **cloud backend**.  
-2. The **backend** decodes, calibrates, and stores data in **Amazon S3** and **DynamoDB**.  
-3. The **web dashboard** provides researchers with tools to browse, visualize, and download data, as well as manage devices and users.  
-4. **DynamoDB** and **S3** work together to provide fast metadata queries and scalable file storage.
+**What it is:** An Angular-based web application with AG Grid for data tables, Chart.js for visualizations, and AWS Amplify for authentication and deployment.
+
+**How to run:**
+1. Clone the repository: `git clone https://github.com/shimmerumass/shimmer-web-ui`
+2. Install dependencies: `npm install`
+3. Start development server: `ng serve`
+4. Open http://localhost:4200 in your browser
+
+**Prerequisites:** Node.js v18+, npm v9+, Angular CLI.
+
+See the repository README for component details and deployment instructions.
+
+
+
+## Shimmer Sensor and Firmware
+<!-- TODO: Zhaolong -->
