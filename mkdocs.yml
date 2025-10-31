@@ -59,10 +59,11 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Architecture: architecture.md
+  - Hardware & Firmware: hardware-firmware.md
   - Protocol: protocol.md
   - Experiments: experiments.md
   - Shimmer Server UI: shimmer-server-ui.md
-  - Mobile Application: myapplication.md
+  - MyApplication: myapplication.md
   - Cloud Sync: cloud-sync.md
 
 copyright: Copyright &copy; 2025 UMass Shimmer Project
