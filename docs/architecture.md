@@ -1,3 +1,11 @@
+---
+tags:
+  - architecture
+  - system-design
+  - shimmer-sensor
+  - subsystems
+---
+
 # System Architecture
 
 This document outlines the architecture of the UMass Shimmer sensor platform, including hardware components, software layers, and data flow.
