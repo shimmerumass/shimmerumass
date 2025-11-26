@@ -59,7 +59,7 @@ The **ShimmerDock Android app** automates nightly extraction and synchronization
 
 ### **2️⃣ Cloud Processing and API Layer**
 
-📦 **Repository:** [cosda-umass/shimmer-cloud-api](https://github.com/cosda-umass/shimmer-cloud-api)
+📦 **Repository:** [cosda-umass/shimmer-cloud-api](https://github.com/cosda-umass/shimmer-data-sync-api)
 
 The backend is implemented using **Python (FastAPI)** and deployed serverlessly via **AWS Lambda** and **API Gateway**. It ingests, decodes, and manages uploaded Shimmer binary files from the Android subsystem.
 
