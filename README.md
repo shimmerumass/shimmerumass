@@ -15,7 +15,7 @@
 ## 🧭 Overview
 
 
-The **UMass Shimmer Project** is a modular platform built by the University of Massachusetts research community to automate **data extraction, decoding, and synchronization** of Shimmer sensor data.
+The **COSDA Project** is a modular platform built by the University of Massachusetts research community to automate **data extraction, decoding, and synchronization** of Shimmer sensor data.
 
 In the current landscape, many organizations rely on proprietary or third-party platforms to sync and manage sensor data. This project serves as an open-source example for building a fully self-reliant, end-to-end system—empowering researchers and developers to create, control, and extend their own data acquisition and processing pipelines without vendor lock-in.
 
@@ -92,7 +92,7 @@ The backend is implemented using **Python (FastAPI)** and deployed serverlessly 
 
 ### **3️⃣ Visualization and Web Interface**
 
-📦 **Repository:** [cosda-umass/shimmer-web-ui](https://github.com/cosda-umass/shimmer-web-ui)
+📦 **Repository:** [cosda-umass/shimmer-web-ui]([https://github.com/cosda-umass/shimmer-web-ui](https://github.com/cosda-umass/shimmer-sensor-dashboard))
 
 A lightweight Angular-based interface provides tools for data visualization and management.
 
@@ -176,12 +176,3 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 </div>
 
----
-
-<div align="center">
-
-**Built by the UMass Research Community**
-
-[Documentation](https://cosda-umass.github.io/cosda-umass/) • [Android App](https://github.com/cosda-umass/shimmer-docking-android) • [Cloud API](https://github.com/cosda-umass/shimmer-cloud-api) • [Web Interface](https://github.com/cosda-umass/shimmer-web-ui)
-
-</div>
