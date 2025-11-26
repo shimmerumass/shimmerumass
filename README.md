@@ -1,4 +1,4 @@
-# UMass Shimmer Project
+# Configurable Open Source System for Data Acquisition (COSDA) 
 
 <div align="center">
 
