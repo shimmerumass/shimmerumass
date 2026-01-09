@@ -1,6 +1,6 @@
 # Getting Started
 
-This guide provides setup instructions for the three main components of the UMass Shimmer project: the Android docking app, the cloud API backend, and the web interface dashboard.
+This guide provides setup instructions for the three main components of the COSDA Project: the Android docking app, the cloud API backend, and the web interface dashboard.
 
 ## Android Docking App
 

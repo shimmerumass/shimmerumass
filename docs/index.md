@@ -1,6 +1,6 @@
-# UMass Shimmer Project
+# COSDA - Configurable Open Source System for Data Acquisition
 
-Welcome to the UMass Shimmer Project documentation. This project focuses on developing and implementing sensor technology using Shimmer wireless sensor platforms for research and development at the University of Massachusetts.
+Welcome to the COSDA documentation. This project focuses on developing and implementing sensor technology using Shimmer wireless sensor platforms for research and development at the University of Massachusetts.
 
 ## What is Shimmer?
 <!-- TODO: Zhaolong -->
@@ -9,7 +9,7 @@ Shimmer is a wireless sensor designed for real-time human motion analysis, envir
 
 
 
-![App Architecture](app_architecture.png)
+![App Architecture](../app_architecture.png)
 
 ## Hardware Components Overview
 

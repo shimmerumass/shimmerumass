@@ -1,6 +1,6 @@
 # Experimental Results
 
-This page documents experimental validation and results for the UMass Shimmer project components.
+This page documents experimental validation and results for the COSDA  project components.
 
 ## RTC Timing Validation
 Validation of real-time clock (RTC) synchronization between Shimmer devices and the Android docking app.
