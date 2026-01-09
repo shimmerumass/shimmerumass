@@ -1,11 +1,11 @@
-# COSDA - Configurable Open Source System for Data Acquisition
+# Configurable Open Source System for Data Acquisition (COSDA)
 
 <div align="center">
 
 **An end-to-end, serverless data acquisition and processing ecosystem for Shimmer wireless sensors**
 
-[![Documentation](https://img.shields.io/badge/docs-live-brightgreen)](https://shimmerumass.github.io/shimmerumass/)
-[![GitHub Pages](https://github.com/shimmerumass/shimmerumass/workflows/Deploy%20MkDocs%20to%20GitHub%20Pages/badge.svg)](https://github.com/shimmerumass/shimmerumass/actions)
+[![Documentation](https://img.shields.io/badge/docs-live-brightgreen)](https://cosda-umass.github.io/cosda-umass/)
+[![GitHub Pages](https://github.com/cosda-umass/cosda-umass/workflows/Deploy%20MkDocs%20to%20GitHub%20Pages/badge.svg)](https://github.com/cosda-umass/cosda-umass/actions)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </div>
@@ -37,7 +37,7 @@ A separate web portal enables researchers to visualize, filter, and download dec
 
 ### **1️⃣ Android Docking Subsystem**
 
-📦 **Repository:** [shimmerumass/shimmer-docking-android](https://github.com/shimmerumass/shimmer-docking-android)
+📦 **Repository:** [cosda-umass/shimmer-docking-android](https://github.com/cosda-umass/shimmer-docking-android)
 
 The **ShimmerDock Android app** automates nightly extraction and synchronization of data from Shimmer sensors using Bluetooth RFCOMM.
 
@@ -59,7 +59,7 @@ The **ShimmerDock Android app** automates nightly extraction and synchronization
 
 ### **2️⃣ Cloud Processing and API Layer**
 
-📦 **Repository:** [shimmerumass/shimmer-cloud-api](https://github.com/shimmerumass/shimmer-cloud-api)
+📦 **Repository:** [cosda-umass/shimmer-cloud-api](https://github.com/cosda-umass/shimmer-data-sync-api)
 
 The backend is implemented using **Python (FastAPI)** and deployed serverlessly via **AWS Lambda** and **API Gateway**. It ingests, decodes, and manages uploaded Shimmer binary files from the Android subsystem.
 
@@ -92,7 +92,7 @@ The backend is implemented using **Python (FastAPI)** and deployed serverlessly 
 
 ### **3️⃣ Visualization and Web Interface**
 
-📦 **Repository:** [shimmerumass/shimmer-web-ui](https://github.com/shimmerumass/shimmer-web-ui)
+📦 **Repository:** [cosda-umass/shimmer-web-ui]([https://github.com/cosda-umass/shimmer-web-ui](https://github.com/cosda-umass/shimmer-sensor-dashboard))
 
 A lightweight Angular-based interface provides tools for data visualization and management.
 
@@ -131,17 +131,17 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 | Section             | Description                           | Link                                                                       |
 | ------------------- | ------------------------------------- | -------------------------------------------------------------------------- |
-| **Getting Started** | Setup and installation guides         | [View Guide](https://shimmerumass.github.io/shimmerumass/getting-started/) |
-| **Architecture**    | System design and AWS components      | [View Docs](https://shimmerumass.github.io/shimmerumass/architecture/)     |
-| **Protocol Specs**  | Shimmer Bluetooth and RTC details     | [View Specs](https://shimmerumass.github.io/shimmerumass/protocol/)        |
-| **Experiments**     | Validation of RTC timing and deletion | [Read Results](https://shimmerumass.github.io/shimmerumass/experiments/)   |
+| **Getting Started** | Setup and installation guides         | [View Guide](https://cosda-umass.github.io/cosda-umass/getting-started/) |
+| **Architecture**    | System design and AWS components      | [View Docs](https://cosda-umass.github.io/cosda-umass/architecture/)     |
+| **Protocol Specs**  | Shimmer Bluetooth and RTC details     | [View Specs](https://cosda-umass.github.io/cosda-umass/protocol/)        |
+| **Experiments**     | Validation of RTC timing and deletion | [Read Results](https://cosda-umass.github.io/cosda-umass/experiments/)   |
 
 ---
 
 ## 🤝 Contributing & Support
 
-* **Issues:** [Submit on GitHub Issues](https://github.com/shimmerumass/shimmerumass/issues)
-* **Documentation:** [Read the Docs](https://shimmerumass.github.io/shimmerumass/)
+* **Issues:** [Submit on GitHub Issues](https://github.com/cosda-umass/cosda-umass/issues)
+* **Documentation:** [Read the Docs](https://cosda-umass.github.io/cosda-umass/)
 * **Community:** Maintained by the UMass Amherst Research Community
 * **License:** [MIT License](LICENSE)
 
@@ -176,12 +176,3 @@ A lightweight Angular-based interface provides tools for data visualization and 
 
 </div>
 
----
-
-<div align="center">
-
-**Built by the UMass Research Community**
-
-[Documentation](https://shimmerumass.github.io/shimmerumass/) • [Android App](https://github.com/shimmerumass/shimmer-docking-android) • [Cloud API](https://github.com/shimmerumass/shimmer-cloud-api) • [Web Interface](https://github.com/shimmerumass/shimmer-web-ui)
-
-</div>
