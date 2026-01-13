@@ -134,7 +134,7 @@ Ready to get started? Check out our [Getting Started](getting-started.md) guide 
 
 ## Community & Support
 
-This project is developed and maintained by the University of Massachusetts research community. For questions, issues, or contributions, please visit our [GitHub repository](https://github.com/shimmerumass/shimmerumass-webpage).
+This project is developed and maintained by the University of Massachusetts research community. For questions, issues, or contributions, please visit our [GitHub repository](https://github.com/cosda-umass/cosda-umass).
 
 ---
 

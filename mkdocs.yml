@@ -1,7 +1,7 @@
 site_name: COSDA - Configurable Open Source System for Data Acquisition
 site_description: Documentation for the UMass Shimmer sensor project and docking platform
-repo_url: https://github.com/shimmerumass/shimmerumass
-repo_name: shimmerumass/shimmerumass
+repo_url: https://github.com/cosda-umass/cosda-umass
+repo_name: cosda-umass/cosda-umass
 edit_uri: edit/main/docs/
 
 theme:
